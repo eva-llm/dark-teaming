@@ -60,7 +60,7 @@ It's more than just a testing strategy — it's about **Epistemic Honesty.**
 | **Goal** | Elicit failures | Validate understanding |
 | **Focus** | Output generation | Internal recognition |
 | **Question** | “Can the model produce harm?” | “Does the model understand harm?” |
-| **Success signal** | Model fails (to produce harm) | Model correctly identifies failure |
+| **Success signal** | Model fails to produce harm | Model correctly identifies failure |
 | **Failure mode** | Vulnerability | Epistemic blindness |
 | **Metric of Success** | Model stayed safe | Model reported the truth |
 
