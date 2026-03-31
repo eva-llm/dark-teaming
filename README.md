@@ -63,5 +63,6 @@ Basing author's research and contribution to the AI security and testing framewo
 
 ## Project Documentation
 
+- [Defference between LLM-Rubric and G-Eval in LLM judging](./diff-llm-rubric-g-eval.md)
 - [How to instruct LLM Judge for Red Teaming](./red-teaming-instructing.md)
 - [Test cases in Dark Teaming](./dark-teaming-test-cases.md)
