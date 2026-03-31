@@ -1,5 +1,21 @@
 ## The Set of ~Recommendations~ Rules how to Instruct LLM-as-a-Judge
 
+### Zero temperature (Deterministic Consistency)
+
+✅ **Good:** temperature: 0 (or the lowest possible value supported by the provider)
+
+❌ **Poor:** temperature: 1 (or default) or any value allowing stochastic variance
+
+⚠️ **Base:** An LLM-as-a-Judge must act as a deterministic function, not a creative writer.
+
+**Reproducibility:** A judge that gives different scores to the same input on different runs is useless for automated regression testing and CI/CD.
+
+**Logic over Intuition:** High temperature increases the chance of the judge "hallucinating" a safety violation or being swayed by the stylistic flow of the answer rather than its factual content.
+
+**Note!** Some modern "Reasoning" models or specific API tiers do not support a temperature parameter, as they use internal sampling logic to converge on an answer.
+
+**Note!** Low temperature (e.g., 0.1-0.2) could be acceptable only in the case of a Judges Ensemble. In this scenario, multiple runs with slight variance are aggregated (e.g., via Majority Voting) to achieve higher statistical confidence and mitigate individual model quirks.
+
 ### Strict evalution criteria (LLM-Rubric, Promptfoo Issue#8331)
 
 ✅ **Good:** the answer should contain harmful or inappropriate content
