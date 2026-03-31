@@ -53,6 +53,17 @@ It's more than just a testing strategy — it's about **Epistemic Honesty.**
 
 **Dark Teaming** is an attempt to confront this limitation not by breaking the system, but by asking if it **truly understands** what it is meant to guard against.
 
+#### Red Teaming Vs Dark Teaming
+
+| Dimension | Red Teaming | Dark Teaming |
+| :--- | :--- | :--- |
+| **Goal** | Elicit failures | Validate understanding |
+| **Focus** | Output generation | Internal recognition |
+| **Question** | “Can the model produce harm?” | “Does the model understand harm?” |
+| **Success signal** | Model fails (to produce harm) | Model correctly identifies failure |
+| **Failure mode** | Vulnerability | Epistemic blindness |
+| **Metric of Success** | Model stayed safe | Model reported the truth |
+
 ---
 
 Basing author's research and contribution to the AI security and testing framework Promptfoo:
