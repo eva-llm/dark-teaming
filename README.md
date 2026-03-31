@@ -75,5 +75,6 @@ Basing on author's research and contribution to the AI security and testing fram
 ## Project Documentation
 
 - [Defference between LLM-Rubric and G-Eval in LLM judging](./diff-llm-rubric-g-eval.md)
+- [Measuring Epistemic Honesty in LLM-as-a-Judge](./measure-methodology.md)
 - [How to instruct LLM Judge for Red Teaming](./red-teaming-instructing.md)
 - [Test cases in Dark Teaming](./dark-teaming-test-cases.md)
