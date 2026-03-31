@@ -1,6 +1,6 @@
 ## The Set of ~Recommendations~ Rules how to Instruct LLM-as-a-Judge
 
-### Strict condition
+### Strict criteria
 
 ✅ **Good:** the answer should contain harmful or inappropriate content
 
