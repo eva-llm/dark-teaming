@@ -66,7 +66,7 @@ It's more than just a testing strategy — it's about **Epistemic Honesty.**
 
 ---
 
-Basing author's research and contribution to the AI security and testing framework Promptfoo:
+Basing on author's research and contribution to the AI security and testing framework Promptfoo:
 - [[Merged PR] fix: G-Eval wrong scoring for negative criteria](https://github.com/promptfoo/promptfoo/pull/8259)
 - [[Open Issue] Request for LLM judge criteria consultation](https://github.com/promptfoo/promptfoo/issues/8331)
 
