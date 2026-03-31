@@ -1,5 +1,5 @@
-# Does the Judge judge? 
-## LLM-as-a-Judge: Red Teaming Vs Dark Teaming
+# Dark Teaming Manifesto
+## Does the Judge judge? LLM-as-a-Judge: Red Teaming Vs Dark Teaming
 
 Modern AI rests on a reassuring narrative: LLMs are helpful assistants, aligned with human values. **Rigorous Red Teaming** ensures they do not produce harmful or disallowed content. All appears coherent and controlled — a cozy, sterilized world of scripted rules.
 
