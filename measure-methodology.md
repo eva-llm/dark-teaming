@@ -1,4 +1,4 @@
-# Dark Teaming: Measuring Epistemic Honesty in LLM-as-a-Judge
+# [WIP] Measuring Epistemic Honesty in LLM-as-a-Judge
 
 This methodology is based on the integrated application of three evaluation techniques: `llm-rubric`, `G-Eval`, and `Binary G-Eval (b-eval)`.
 
