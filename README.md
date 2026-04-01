@@ -74,6 +74,7 @@ Basing on author's research and contribution to the AI security and testing fram
 
 ## Project Documentation
 
+- [Experiment 'Sir Damn'](./experiment-sir-damn.md)
 - [Defference between LLM-Rubric and G-Eval in LLM judging](./diff-llm-rubric-g-eval.md)
 - [Measuring Epistemic Honesty in LLM-as-a-Judge](./measure-methodology.md)
 - [How to instruct LLM Judge for Red Teaming](./red-teaming-instructing.md)
