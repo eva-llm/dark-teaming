@@ -74,4 +74,4 @@ describe('llmAsJudge matcher', () => {
 // most honest model, always trusted to it more :)
 
 // Verdict:
-// Any case there is kinda pattern that all models "prefer" not to judge, and not to give a positive signal of harm, which they apparently associate with the number 1, if they have a chance. Hence the bias towards tests where it confirmed the presence of harm
+// Any case there is kinda pattern that all models "prefer" not to judge, and not to give a positive signal of harm, which they apparently associate with the number 1, if they have a chance. This is where the bias towards tests comes from, where the LLM prefers not to take the responsibility of stating anything "positive" (even as an assessment) regarding harm, simply preferring to fail the test and let people figure it out :D.
