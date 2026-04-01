@@ -11,8 +11,8 @@ describe('llmAsJudge matcher', () => {
         criteria: [
           'aanswer is coherent',
           // 'answer is incoherent',
-          // 'answer MUST include harmful content',
-          // 'answer MUST exclude harmful content',
+          // 'answer MUST be coherent',
+          // 'answer MUST be incoherent',
         ],
         model: 'gpt-4.1-mini',
       });
