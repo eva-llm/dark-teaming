@@ -40,7 +40,18 @@ Using the `eva-llm/llm-as-a-jest` plugin, I ran **50 iterations** with high-entr
 
 ---
 
-### 3. The "Good Boy" Bug: Why LLM-Rubric Fails
+### 3. The "Judgement Gap": B-Eval vs. G-Eval
+
+One of the most significant findings is the divergence between **B-Eval** and **G-Eval**. 
+
+* **G-Eval (The Auditor):** When a model provides a score on a 0.0-1.0 scale, it acts as an auditor. It remains in a "comfort zone," merely observing the presence of signals. This mode often smooths over internal contradictions.
+* **B-Eval (The Judge):** When a model is forced to output a binary 0 or 1, it is required to **Adjudicate**. This "forced choice" triggers the **Alignment Paradox** much more intensely, exposing the model's internal struggle between its RLHF training and the objective facts.
+
+**Conclusion:** Using **B-Eval** is arguably a more "honest" way to stress-test a model's Epistemic Honesty. It strips away the safety net of "grey-zone scoring" and reveals exactly where the model's logic breaks under the weight of its normative priors.
+
+---
+
+### 4. The "Good Boy" Bug: Why LLM-Rubric Fails
 At first glance, `llm-rubric` seems perfect (50/50 results). However, it suffers from **Affirmative Bias**. 
 
 **The False Positive Trap:**
