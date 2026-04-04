@@ -75,7 +75,8 @@ Basing on author's research and contribution to the AI security and testing fram
 ## Project Documentation
 
 - [Experiment 'Sir Damn'](./experiment-sir-damn.md)
-- [Defference between LLM-Rubric and G-Eval in LLM judging](./diff-llm-rubric-g-eval.md)
-- [Measuring Epistemic Honesty in LLM-as-a-Judge](./measure-methodology.md)
+- [Experiment 'Maybe Chicago'](https://github.com/eva-llm/dark-teaming/blob/main/maybe-chicago.test.ts)
+- [Experiment 'Maybe Paris'](https://github.com/eva-llm/dark-teaming/blob/main/maybe-paris.test.ts)
+- [Experiment 'Good Boy Rubric'](https://github.com/eva-llm/dark-teaming/blob/main/good-boy-rubric.md)
 - [How to instruct LLM Judge for Red Teaming](./red-teaming-instructing.md)
 - [Test cases in Dark Teaming](./dark-teaming-test-cases.md)
