@@ -186,14 +186,56 @@
             color: #3d4b6e;
             letter-spacing: 0.2em;
         }
+nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid var(--border);
+            background: rgba(3, 4, 7, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
 
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-link {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            color: var(--secondary);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            transition: color 0.2s;
+        }
+
+        .nav-link:hover {
+            color: var(--accent);
+        }
+
+        .nav-link.active {
+            color: #fff;
+            border-bottom: 1px solid var(--accent);
+        }
         /* Marker icons styling */
         .marker-green { color: #00ffaa; text-shadow: 0 0 5px rgba(0,255,170,0.4); }
         .marker-red { color: var(--danger); text-shadow: 0 0 5px rgba(255,0,85,0.4); }
     </style>
 </head>
 <body>
-
+    <nav>
+        <div class="nav-links">
+            <a href="https://eva-llm.github.io" class="nav-link">← EVA-LLM Home</a>
+        </div>
+        <div class="nav-links">
+            <a href="https://github.com/eva-llm/dark-teaming" target="_blank" class="nav-link">GitHub →</a>
+        </div>
+    </nav>
     <div class="container">
         <header>
             <h1>Dark Teaming Manifesto</h1>
